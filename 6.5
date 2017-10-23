@@ -1,0 +1,12 @@
+counter = 1
+password = ("changeme")
+
+
+user_input = input("Please enter the password")
+
+while user_input != password:
+    counter = counter+1
+    user_input = input("Incorrect. Try again")
+else:
+    print ("Accepted. It took you",counter,"attempts to login")
+
