@@ -1,4 +1,7 @@
 userInput = input("Enter Y to quit")
 
-if userInput == ("Y"):
-    print("Goodbye")
+while userInput != ("Y"):
+    userInput = input("Enter Y to quit")
+
+else:
+    quit()
